@@ -1,7 +1,13 @@
 import { MultiSelectDropdown } from "./components/MultiSelect";
+import { Note } from "./components/Note";
 
 function App() {
-  return <MultiSelectDropdown />;
+  return (
+    <div>
+      <Note />
+      <MultiSelectDropdown />
+    </div>
+  );
 }
 
 export default App;
